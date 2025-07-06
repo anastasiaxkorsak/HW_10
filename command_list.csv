@@ -1,0 +1,63 @@
+    1  cd
+    2  cd github
+    3  pwd
+    4  cd ..
+    5  clear
+    6  ls
+    7  cd desktop
+    8  cd decktop
+    9  cd робочий стол
+   10  clear
+   11  cd desktop
+   12  pwd
+   13  ls
+   14  clear
+   15  mkdir Github1
+   16  mkdir github1
+   17  man mkdir
+   18  sudo mkdir Github1
+   19  ls
+   20  cd github1
+   21  c && rm ~/.bash_history
+   22  bash_history
+   23  c && rm ~
+   24  pwd
+   25  ls
+   26  cd ..
+   27  ls
+   28  cd desktop
+   29  mkdir github
+   30  ls
+   31  cd github
+   32  git config --global user.name "Korsak Anastasia"
+   33  git config --global user.email krystal.kum@gmail.com
+   34  git clone https://github.com/anastasiaxkorsak/HW_10.git
+   35  cd HW_10
+   36  touch text_ignore.txt
+   37  git status
+   38  gid add text_ignore.txt
+   39  git add text_ignore.txt
+   40  git commit "New file"
+   41  git commit -m "New file created"
+   42  touch main_test.txt
+   43  git add main_test.txt
+   44  git commit -m "New file cteated"
+   45  git status
+   46  git log
+   47  git branch
+   48  git checkout -b develop
+   49  git branch
+   50  touch develop_test.txt
+   51  git add develop_test.txt
+   52  git commit -m "New file created"
+   53  nano develop_test.txt
+   54  git status
+   55  git add develop_test.txt
+   56  git commit -m "just a small change"
+   57  git checkout main
+   58  git branch
+   59  git merge develop
+   60  git branch
+   61  git status
+   62  git checkout develod
+   63  git log
